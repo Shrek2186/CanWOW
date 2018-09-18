@@ -1,0 +1,245 @@
+
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Noto Sans TC", sans-serif
+}
+
+a {
+    /* 修改 bootstrap 連結顏色*/
+    color: inherit;
+}
+
+
+nav  .open_search{
+    /*display: none;*/
+}
+@media screen and (max-width: 768px) {
+    /* 當寬度為 mobile，隱藏 LOGO */
+    .mobile-display-none {
+        display: none;
+    }
+
+    nav .open_search{
+        display: block;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar-left {
+        float: left;
+    }
+
+    .navbar-right {
+        float: right;
+    }
+
+    .navbar-form {
+        border: none;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .navbar-form .form-group {
+        padding-left: 3%;
+    }
+
+    .navbar-form .form-group input {
+        width: 80%
+    }
+
+
+    .navbar-form .form-control, .navbar-form .form-group {
+        display: inline;
+        vertical-align: middle;
+    }
+}
+
+.navbar-form button {
+    display: inline;
+    background-color: transparent;
+    color: #9d9d9d;
+}
+
+#banner{
+    padding: 0;
+}
+.navbar-form button:hover{
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-right {
+        margin-right: 0;
+    }
+    .desktop-display-none{
+        display: none;
+    }
+}
+
+.logo {
+    padding-left: 10px;
+    /*float: right;*/
+}
+
+.nav li {
+    /*float: left;*/
+}
+
+.search-bar {
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    top: 60px;
+    transition: 0.5s;
+    background-color: red;
+}
+
+.navbar {
+    margin: 0;
+    border-radius: 0;
+    padding: 5px 0;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+#mySidebar {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 3;
+    width: 500px;
+    display: none;
+    transition: 0.5s;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+#login-box {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: rgba(48, 46, 45, 1);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9999;
+}
+
+#login-box .form-controls .logo .logo-caption {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#login-box .form-controls .logo .tweak {
+    color: #ff5252;
+}
+
+#login-box .form-controls {
+    padding-top: 30px;
+}
+
+#login-box .form-controls input {
+    border-radius: 0px;
+    background: rgb(98, 96, 96);
+    border: 0px;
+    color: white;
+}
+
+#login-box .form-controls input:focus {
+    box-shadow: none;
+}
+
+#login-box .form-controls input:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#login-box .form-controls input:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#login-box button.btn-custom {
+    border-radius: 2px;
+    margin-top: 8px;
+    background: #ff5252;
+    border-color: rgba(48, 46, 45, 1);
+    color: white;
+}
+
+#login-box button.btn-custom:hover {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background: rgba(48, 46, 45, 1);
+    border-color: #ff5252;
+}
+
