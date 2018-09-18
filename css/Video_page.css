@@ -1,0 +1,118 @@
+/*影片中大div與大div之見的的間格線*/
+.interval{
+    height: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+/*左邊的css*/
+.left-box{
+    height: 100%;
+    width: 72%;
+    float: left;
+}
+.play-box{
+    height: 20%;        /*main box*/
+    width: 80%;
+    margin-left: 10%;
+}
+.uploader-box{
+    height: 5%;         /*main box*/
+    width: 80%;
+    margin-left: 10%;
+}
+.stickers-box{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.uploader-img-box{
+    height: 70%;
+    width: 50%;
+    text-align: center;     /*幹 為什麼不置中 幹 uploader的名字就可以置中*/
+    margin-left: 25%;
+}
+.videonam-box{
+    height: 40%;
+    width: 100%;
+}
+.look-feel-box{
+    height: 50%;
+    width: 100%;
+}
+.looknum-box{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.feeling-butt-box{
+    height: 100%;
+    width: 100%;
+    border: solid;
+    cursor: pointer; /*滑鼠移過去變手指頭*/
+    background: red;
+}
+.feeling-box{
+    height: 100%;
+    width: 43%;
+    float: right;
+}
+.play-list-box{
+    height: 100%;
+    width: 7%;
+    float: right;
+}
+.info-box{
+    height: 15%;        /*main box*/
+    width: 80%;
+    margin-left: 10%;
+}
+.info-butt-box{
+    height: 15%;
+    width: 100%;
+}
+.info-text-box{
+    height: 85%;
+    width: 100%;
+    margin-top: 1%;
+}
+.namtim-box{
+    height: 33.3%;
+    width: 100%;
+}
+.mes-box{
+    height: 33.3%;
+    width: 100%;
+}
+.reply-box{
+    height: 33.3%;
+    width: 100%;
+}
+.lookreply-box{
+    height: 25%;
+    width: 100%;
+}
+/*右邊的css*/
+.right-box{
+    height: 100%;
+    width: 26%;
+    float: left;
+}
+.right-head_box{
+    height: 2%;
+    width: 100%;
+    float: left;
+}
+.vidlist-box{
+    height: 5%;
+    width: 100%;
+    float: left;
+}
+.vidlist-box div{
+    text-align: center;
+
+}
