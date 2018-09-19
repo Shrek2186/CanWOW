@@ -104,7 +104,9 @@
                                         <li><a>留言</a></li>
                                     </ul>
                                 </div>
-                                <div class="float-box"><?php include_once "vedeo_play_showMessage.php" ?></div>
+                                <div class="float-box">
+<!--                                    --><?php //include_once "vedeo_play_showMessage.php" ?>
+                                </div>
                             </div>
                             <div id="menu-4" class="subtitle tab-pane fade">
                                 <div class="title-name subtitle">
