@@ -4,7 +4,7 @@ $Link = array(
     'host' => "localhost",
     'account' => "root",
     'password' => "",
-    'dbname' => "Member"
+    'dbname' => "member"
 );
 $Database_Connect = 'mysql:host=' . $Link['host'] . '; dbname=' . $Link['dbname'];
 try {
