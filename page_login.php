@@ -8,7 +8,7 @@
                 </div>
                 <form id="login-form" name="login-form" method="POST" action="Login_Check.php" onclick="return false">
                     <input type="email" name="email" id="email" placeholder="電子信箱" class="form-control" />
-                    <input type="password" name="password" id="password" placeholder="密碼" class="form-control" />
+                    <input type="password" name="password" id="password" autocomplete="current-password" placeholder="密碼" class="form-control" />
                     <button type="submit" name="login" id="login" class="btn btn-default btn-block btn-custom">登入</button>
                 </form>
 
