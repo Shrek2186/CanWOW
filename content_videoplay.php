@@ -39,7 +39,7 @@
                                 <div class="float-box-dark">
                                     <div id="chartContainer"></div>
                                     <!-- 標籤 -->
-                                    <?php include 'Video_Tag/index.php' ?>
+<!--                                    --><?php //include 'Video_Tag/index.php' ?>
                                 </div>
                             </div>
                         </div>
