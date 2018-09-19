@@ -1,7 +1,7 @@
 <?php
-if (!isset($_SESSION)) {
-    session_start();
-}
+//if (!isset($_SESSION)) {
+//    session_start();
+//}
 require_once("Connect_Video.php");
 require_once("Connect_Member.php");
 require_once("database/mem_info_open.php");     // 方方

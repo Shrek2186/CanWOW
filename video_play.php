@@ -1,4 +1,8 @@
-<?php include_once "module/ModuleVideoInfo.php";
+<?php
+if (!isset($_SESSION)) {
+    session_start();
+}
+include_once "module/ModuleVideoInfo.php";
 include_once "database/mem_info_open.php";
 include_once "database/video_open.php";
 ?>
