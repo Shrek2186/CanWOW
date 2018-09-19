@@ -14,7 +14,7 @@ class ControlVideo
     {
         $cdb = new CDB();
         $cdb->server_name = "localhost";
-        $cdb->database_name = "Video";
+        $cdb->database_name = "video";
         $cdb->user_name = "root";
         $cdb->password = "";
         $this->connect = $cdb->Connection();
