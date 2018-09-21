@@ -41,14 +41,10 @@
                                                      style="position: relative;height: 150px;float: right">
                                                     <div style="position: absolute;top: 0;left: 0;height: 100px;width: 100%;">
                                                         <div class="row">
-                                                            <div class="col-sm-12"
-                                                                 style="height: 50px;line-height: 50px"><i
-                                                                        style="font-size: 22px"
-                                                                        class="fa fa-user-circle-o"></i>shrek2186<i
-                                                                        style="font-size: 22px"
-                                                                        class="fa fa-clock-o"></i>2018-08-31<i
-                                                                        style="font-size: 25px"
-                                                                        class="fa fa-play-circle-o"></i>3459
+                                                            <div class="col-sm-12" style="height: 50px;line-height: 50px">
+                                                                <i style="font-size: 22px" class="fa fa-user-circle-o"></i><?php echo $r['Video_Uploader'] ?>
+                                                                <i style="font-size: 22px" class="fa fa-clock-o"></i><?php echo $r['Video_Date'] ?>
+                                                                <i style="font-size: 25px" class="fa fa-play-circle-o"></i><?php echo $r['Video_Watch_Num'] ?>
                                                             </div>
                                                         </div>
                                                     </div>
