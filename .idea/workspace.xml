@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fa7078-622c-47ba-a918-9f0b1d7c290e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content_search.php" afterPath="$PROJECT_DIR$/content_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ModuleSearch.php" afterPath="$PROJECT_DIR$/module/ModuleSearch.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content_search.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content_search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="247">
+              <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -50,15 +49,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModuleSearch.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ModuleSearch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/ModuleSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="313">
+              <caret line="49" column="189" lean-forward="true" selection-start-line="49" selection-start-column="189" selection-end-line="49" selection-end-column="189" />
               <folding>
-                <marker date="1537272337396" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
-                <marker date="1537272337396" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
-                <marker date="1537272337396" expanded="true" signature="2278:3013" ph="SELECT disti... video_info" />
+                <marker date="1537533108023" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
+                <marker date="1537533108023" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
+                <marker date="1537533108023" expanded="true" signature="2278:3039" ph="SELECT disti... video_info" />
               </folding>
             </state>
           </provider>
@@ -86,6 +85,7 @@
         <option value="$PROJECT_DIR$/Connect_Member.php" />
         <option value="$PROJECT_DIR$/content_videoplay.php" />
         <option value="$PROJECT_DIR$/content_search.php" />
+        <option value="$PROJECT_DIR$/module/ModuleSearch.php" />
       </list>
     </option>
   </component>
@@ -185,12 +185,12 @@
       <updated>1537338178469</updated>
       <workItem from="1537338181454" duration="2047000" />
       <workItem from="1537343856290" duration="394000" />
-      <workItem from="1537531464266" duration="1125000" />
+      <workItem from="1537531464266" duration="1321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3566000" />
+    <option name="totallyTimeSpent" value="3762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -492,26 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/video_open.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ModuleSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-          <folding>
-            <marker date="1537272337396" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
-            <marker date="1537272337396" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
-            <marker date="1537272337396" expanded="true" signature="2278:3013" ph="SELECT disti... video_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video_search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -522,14 +502,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="247">
+          <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/video_open.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ModuleSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="49" column="189" lean-forward="true" selection-start-line="49" selection-start-column="189" selection-end-line="49" selection-end-column="189" />
+          <folding>
+            <marker date="1537533108023" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
+            <marker date="1537533108023" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
+            <marker date="1537533108023" expanded="true" signature="2278:3039" ph="SELECT disti... video_info" />
           </folding>
         </state>
       </provider>

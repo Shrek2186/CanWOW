@@ -47,7 +47,7 @@ foreach ($Keywords as $k) {         //從member資料庫找出使用者專屬的
     $i = $i + 1;
 }
 
-$sql = 'SELECT distinct video_info.Video_ID, video_info.Video_Name, video_info.Video_Date, statistics.Video_Watch_Num, statistics.sum_guest_book, Video_Type, Path,
+$sql = 'SELECT distinct video_info.Video_Uploader,video_info.Video_ID, video_info.Video_Name, video_info.Video_Date, statistics.Video_Watch_Num, statistics.sum_guest_book, Video_Type, Path,
         statistics.sum_guest_reply, statistics.feeling_sum_like, statistics.feeling_sum_dislike, statistics.feeling_sum_heart, statistics.feeling_sum_happy, 
         statistics.feeling_sum_shock, statistics.feeling_sum_angry,statistics.feeling_sum_sad 
         FROM `video_info` LEFT JOIN `video_tag` ON 
