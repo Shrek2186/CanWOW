@@ -11,5 +11,5 @@ $login_message = $cm->Login($email, $password);
 echo $login_message;
 
 echo dirname(__FILE__);
-echo '<br>';
+echo '<br><br>';
 echo $_SERVER['DOCUMENT_ROOT'];
