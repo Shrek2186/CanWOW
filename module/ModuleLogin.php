@@ -8,3 +8,4 @@ $email= $_POST['email'];
 $password = $_POST['password'];
 $login_message = $cm->Login($email,$password);
 echo $login_message;
+echo $_SERVER['DOCUMENT_ROOT'];
