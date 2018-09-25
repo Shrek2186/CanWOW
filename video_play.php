@@ -24,11 +24,11 @@ include_once "database/video_open.php";
                 async: false,
                 type: 'POST',
                 data: {email: Email.value, password: Password.value},
-                error: function () {
-                    alert('Ajax request error!');
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert(xhr.responseText);
                 },
-                success: function (result) {
-                    switch (result) {
+                success: function (response) {
+                    switch (response) {
                         case 1:
                             alert('登入成功!!');
                             document.location.href = "index.php";
