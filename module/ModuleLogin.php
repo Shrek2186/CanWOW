@@ -1,6 +1,6 @@
 <?php
 
-include_once "/control/ControlMember.php";
+include_once "http://localhost/canwow-server/control/ControlMember.php";
 use shrek\ControlMember as CM;
 
 $cm = new CM();
