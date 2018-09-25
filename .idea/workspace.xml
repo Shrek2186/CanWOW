@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fa7078-622c-47ba-a918-9f0b1d7c290e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ModuleLogin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/ControlMember.php" afterPath="$PROJECT_DIR$/control/ControlMember.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_login.php" afterPath="$PROJECT_DIR$/page_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video_play.php" afterPath="$PROJECT_DIR$/video_play.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,71 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav_top.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/nav_top.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="17" column="110" lean-forward="true" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page_login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="88" lean-forward="true" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+              <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="100" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login_Check.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Login_Check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <marker date="1537272358334" expanded="true" signature="200:313" ph="SELECT `Emai... mem_info" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video_play.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video_play.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControlVideo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/control/ControlVideo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-                <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControlMember.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <marker date="1537855895600" expanded="true" signature="520:560" ph="SELECT * FRO... playlist" />
-                <marker date="1537855895600" expanded="true" signature="852:911" ph="SELECT email... information" />
-                <marker date="1537855895600" expanded="true" signature="1550:1577" ph="Select from failed" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,38 +28,18 @@
       <file leaf-file-name="ModuleLogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/ConnectDB.php">
+      <file leaf-file-name="video_play.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video_play.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="good_open.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/good_open.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleVideoInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ModuleVideoInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -141,14 +62,15 @@
       <list>
         <option value="$PROJECT_DIR$/control/ControlVideo.php" />
         <option value="$PROJECT_DIR$/vedeo_play_showMessage.php" />
-        <option value="$PROJECT_DIR$/video_play.php" />
-        <option value="$PROJECT_DIR$/page_login.php" />
         <option value="$PROJECT_DIR$/Connect_Video.php" />
         <option value="$PROJECT_DIR$/Connect_Member.php" />
         <option value="$PROJECT_DIR$/content_videoplay.php" />
         <option value="$PROJECT_DIR$/content_search.php" />
         <option value="$PROJECT_DIR$/module/ModuleSearch.php" />
         <option value="$PROJECT_DIR$/control/ControlMember.php" />
+        <option value="$PROJECT_DIR$/module/ModuleLogin.php" />
+        <option value="$PROJECT_DIR$/page_login.php" />
+        <option value="$PROJECT_DIR$/video_play.php" />
       </list>
     </option>
   </component>
@@ -257,12 +179,12 @@
       <workItem from="1537338181454" duration="2047000" />
       <workItem from="1537343856290" duration="394000" />
       <workItem from="1537531464266" duration="2309000" />
-      <workItem from="1537851481552" duration="3610000" />
+      <workItem from="1537851481552" duration="4217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8360000" />
+    <option name="totallyTimeSpent" value="8967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -556,26 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ModuleSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <marker date="1537533108023" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
-            <marker date="1537533108023" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
-            <marker date="1537533108023" expanded="true" signature="2278:3039" ph="SELECT disti... video_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ModuleVideoInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-678">
@@ -588,34 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/nav_top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="17" column="110" lean-forward="true" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/mem_info_open.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/good_open.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/ConnectDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -639,10 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_login.php">
+    <entry file="file://$PROJECT_DIR$/common/nav_top.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="88" lean-forward="true" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+        <state relative-caret-position="342">
+          <caret line="17" column="110" lean-forward="true" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
           <folding />
         </state>
       </provider>
@@ -650,7 +528,7 @@
     <entry file="file://$PROJECT_DIR$/Login_Check.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="29" />
           <folding>
             <marker date="1537272358334" expanded="true" signature="200:313" ph="SELECT `Emai... mem_info" />
           </folding>
@@ -659,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/control/ControlVideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="90">
           <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
@@ -668,31 +546,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video_play.php">
+    <entry file="file://$PROJECT_DIR$/module/ModuleSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="-251">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <marker date="1537533108023" expanded="true" signature="573:647" ph="INSERT INTO `search_record`... " />
+            <marker date="1537533108023" expanded="true" signature="671:728" ph="INSERT INTO `search_record`... " />
+            <marker date="1537533108023" expanded="true" signature="2278:3039" ph="SELECT disti... video_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1537855895600" expanded="true" signature="520:560" ph="SELECT * FRO... playlist" />
+            <marker date="1537855895600" expanded="true" signature="852:911" ph="SELECT email... information" />
+            <marker date="1537855895600" expanded="true" signature="1550:1577" ph="Select from failed" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/ConnectDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/good_open.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ModuleVideoInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
+    <entry file="file://$PROJECT_DIR$/page_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <marker date="1537855895600" expanded="true" signature="520:560" ph="SELECT * FRO... playlist" />
-            <marker date="1537855895600" expanded="true" signature="852:911" ph="SELECT email... information" />
-            <marker date="1537855895600" expanded="true" signature="1550:1577" ph="Select from failed" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video_play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

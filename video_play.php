@@ -19,7 +19,7 @@ include_once "database/video_open.php";
             var Email = document.getElementById("email");
             var Password = document.getElementById("password");
             $.ajax({
-                url: 'Login_Check.php',
+                url: 'module/ModuleLogin.php',
                 dataType: "json",
                 async: false,
                 type: 'POST',
