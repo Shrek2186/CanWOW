@@ -1,7 +1,7 @@
 <?php
 
 namespace shrek;
-include_once "http://localhost/canwow-server/database/ConnectDB.php";
+include_once "../database/ConnectDB.php";
 
 use shrek\ConnectDB as CDB;
 

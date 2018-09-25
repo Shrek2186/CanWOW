@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fa7078-622c-47ba-a918-9f0b1d7c290e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/ControlMember.php" afterPath="$PROJECT_DIR$/control/ControlMember.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ModuleLogin.php" afterPath="$PROJECT_DIR$/module/ModuleLogin.php" />
     </list>
@@ -18,8 +17,8 @@
       <file leaf-file-name="ModuleLogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="54">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -29,11 +28,11 @@
         <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="47">
-              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding>
-                <marker date="1537862758718" expanded="true" signature="551:591" ph="SELECT * FRO... playlist" />
-                <marker date="1537862758718" expanded="true" signature="883:942" ph="SELECT email... information" />
-                <marker date="1537862758718" expanded="true" signature="1794:1821" ph="Select from failed" />
+                <marker date="1537863078125" expanded="true" signature="523:563" ph="SELECT * FRO... playlist" />
+                <marker date="1537863078125" expanded="true" signature="855:914" ph="SELECT email... information" />
+                <marker date="1537863078125" expanded="true" signature="1766:1793" ph="Select from failed" />
               </folding>
             </state>
           </provider>
@@ -185,12 +184,12 @@
       <workItem from="1537338181454" duration="2047000" />
       <workItem from="1537343856290" duration="394000" />
       <workItem from="1537531464266" duration="2309000" />
-      <workItem from="1537851481552" duration="8247000" />
+      <workItem from="1537851481552" duration="8433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12997000" />
+    <option name="totallyTimeSpent" value="13183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -622,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -631,11 +630,11 @@
     <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
-          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <marker date="1537862758718" expanded="true" signature="551:591" ph="SELECT * FRO... playlist" />
-            <marker date="1537862758718" expanded="true" signature="883:942" ph="SELECT email... information" />
-            <marker date="1537862758718" expanded="true" signature="1794:1821" ph="Select from failed" />
+            <marker date="1537863078125" expanded="true" signature="523:563" ph="SELECT * FRO... playlist" />
+            <marker date="1537863078125" expanded="true" signature="855:914" ph="SELECT email... information" />
+            <marker date="1537863078125" expanded="true" signature="1766:1793" ph="Select from failed" />
           </folding>
         </state>
       </provider>
