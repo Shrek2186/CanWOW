@@ -56,9 +56,11 @@
     <p class="w3-xxlarge" style="font-family: 'fantasy'; position: absolute; margin-top:2%; margin-left: 3%;">快速註冊!!</p>
     <div style="position: absolute; margin-top: 70px; margin-left: 20%;">
         <form id="registerForm" name="registerForm" method="POST" action="sent_registerForm.php" onclick="return false">
-            <ul class="w3-ul">
-                <li><input type="text" name="L_name" id="L_name" placeholder="姓氏" onblur="giveWarning(this)"><span
-                            id="Warn_Lname" style="color: red; display: none;">請輸入您的姓氏</span></li>
+            <ul>
+                <li>
+                    <input type="text" name="L_name" id="L_name" placeholder="姓氏" onblur="giveWarning(this)"><span
+                            id="Warn_Lname" style="color: red; display: none;">請輸入您的姓氏</span>
+                </li>
                 <li id="L_Fname"><input type="text" name="F_name" id="F_name" placeholder="名字"
                                         onblur="giveWarning(this)"><span id="Warn_Fname"
                                                                          style="color: red; display: none;">請輸入您的名字</span>

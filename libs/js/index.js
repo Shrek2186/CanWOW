@@ -89,3 +89,7 @@ function registerOpen() {
     document.getElementById("login-controls").style.display = "none";
     document.getElementById("register-controls").style.display = "block";
 }
+function registerClose() {
+    document.getElementById("login-controls").style.display = "block";
+    document.getElementById("register-controls").style.display = "none";
+}

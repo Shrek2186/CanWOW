@@ -1,7 +1,7 @@
 <?php
 
 namespace shrek;
-include_once $_SERVER['DOCUMENT_ROOT'].'/canwow-server/'."database/ConnectDB.php";
+include_once $_SERVER['DOCUMENT_ROOT'] . '/canwow-server/' . "database/ConnectDB.php";
 
 use shrek\ConnectDB as CDB;
 
@@ -37,23 +37,16 @@ class ControlMember
             $select->bindValue(':em', $email, \PDO::PARAM_STR);
             if ($select->execute()) {
                 $result = $select->fetch(\PDO::FETCH_ASSOC);
-                if (count($result) > 0) {
+                if (!empty($result['email'])) {
                     if ($result['password'] == $password) {
                         setcookie('verification', $result['email'], time() + 3600, '/');
-//                        $login_message = 'login success';
-                        $login_message = 1;
-                    } else
-//                        $login_message = 'password error';
-                        $login_message = 3;
-                } else
-//                    $login_message = 'email error';
-                    $login_message = 2;
-            } else $login_message = 4;
-//            $login_message = 'server error';
+                        $login_message = 1;//login success
+                    } else $login_message = 2;//password error
+                } else $login_message = 3;//email error
+            } else $login_message = 4;//server error
         } catch (\PDOException $e) {
             echo "Select information failed: " . $e->getMessage();
         }
-
         return $login_message;
     }
 

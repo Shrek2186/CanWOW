@@ -13,41 +13,7 @@ include_once "database/video_open.php";
     <?php include_once "common/web_header.php"; ?>
     <link rel="stylesheet" href="libs/css/design_videopage.css">
 </head>
-<script>
-    $(document).ready(function () {
-        $("#login").click(function () {
-            var Email = document.getElementById("email");
-            var Password = document.getElementById("password");
-            $.ajax({
-                url: 'module/ModuleLogin.php',
-                dataType: "json",
-                async: false,
-                type: 'POST',
-                data: {email: Email.value, password: Password.value},
-                error: function (xhr, ajaxOptions, thrownError) {
-                    alert(xhr.responseText);
-                },
-                success: function (response) {
-                    switch (response) {
-                        case 1:
-                            alert('登入成功!!');
-                            document.location.href = "index.php";
-                            break;
-                        case 2:
-                            alert('無此帳號!!');
-                            break;
-                        case 3:
-                            alert('密碼錯誤!!');
-                            break;
-                        case 4:
-                            alert('伺服器錯誤!!');
-                            break;
-                    }
-                }
-            });
-        })
-    })
-</script>
+
 <body>
 <!--登入頁面-->
 <?php include_once "page_login.php"; ?>
