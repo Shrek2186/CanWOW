@@ -23,7 +23,7 @@ include_once "database/video_open.php";
                 dataType: "json",
                 async: false,
                 type: 'POST',
-                data: {Email: Email.value, Password: Password.value},
+                data: {email: Email.value, password: Password.value},
                 error: function () {
                     alert('Ajax request error!');
                 },

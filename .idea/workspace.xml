@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fa7078-622c-47ba-a918-9f0b1d7c290e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_login.php" afterPath="$PROJECT_DIR$/page_login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video_play.php" afterPath="$PROJECT_DIR$/video_play.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="video_play.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video_play.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="185">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -179,12 +177,12 @@
       <workItem from="1537338181454" duration="2047000" />
       <workItem from="1537343856290" duration="394000" />
       <workItem from="1537531464266" duration="2309000" />
-      <workItem from="1537851481552" duration="4217000" />
+      <workItem from="1537851481552" duration="4423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8967000" />
+    <option name="totallyTimeSpent" value="9173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -612,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video_play.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="185">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
