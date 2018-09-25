@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fa7078-622c-47ba-a918-9f0b1d7c290e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/huangcongren.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/ControlMember.php" afterPath="$PROJECT_DIR$/control/ControlMember.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/ControlVideo.php" afterPath="$PROJECT_DIR$/control/ControlVideo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ModuleLogin.php" afterPath="$PROJECT_DIR$/module/ModuleLogin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModuleLogin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModuleLogin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="36">
+              <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -26,25 +30,25 @@
       <file leaf-file-name="ControlVideo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/ControlVideo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding>
-                <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-                <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
+                <marker date="1537866296889" expanded="true" signature="535:698" ph="SELECT video... video_info" />
+                <marker date="1537866296889" expanded="true" signature="1066:1109" ph="SELECT * FRO... video_info" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControlMember.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ControlMember.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="47">
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding>
-                <marker date="1537863709279" expanded="true" signature="523:563" ph="SELECT * FRO... playlist" />
-                <marker date="1537863709279" expanded="true" signature="855:914" ph="SELECT email... information" />
-                <marker date="1537863709279" expanded="true" signature="1766:1793" ph="Select from failed" />
+                <marker date="1537866296894" expanded="true" signature="563:603" ph="SELECT * FRO... playlist" />
+                <marker date="1537866296894" expanded="true" signature="895:954" ph="SELECT email... information" />
+                <marker date="1537866296894" expanded="true" signature="1806:1833" ph="Select from failed" />
               </folding>
             </state>
           </provider>
@@ -75,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/control/ControlVideo.php" />
         <option value="$PROJECT_DIR$/vedeo_play_showMessage.php" />
         <option value="$PROJECT_DIR$/Connect_Video.php" />
         <option value="$PROJECT_DIR$/Connect_Member.php" />
@@ -86,8 +89,9 @@
         <option value="$PROJECT_DIR$/video_play.php" />
         <option value="$PROJECT_DIR$/../CanWOW/control/ControlMember.php" />
         <option value="$PROJECT_DIR$/Login_Check.php" />
-        <option value="$PROJECT_DIR$/control/ControlMember.php" />
         <option value="$PROJECT_DIR$/module/ModuleLogin.php" />
+        <option value="$PROJECT_DIR$/control/ControlVideo.php" />
+        <option value="$PROJECT_DIR$/control/ControlMember.php" />
       </list>
     </option>
   </component>
@@ -201,7 +205,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13211000" />
+    <option name="totallyTimeSpent" value="13730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -273,8 +277,8 @@
         <state relative-caret-position="378">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-            <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
+            <marker date="1537866296889" expanded="true" signature="535:698" ph="SELECT video... video_info" />
+            <marker date="1537866296889" expanded="true" signature="1066:1109" ph="SELECT * FRO... video_info" />
           </folding>
         </state>
       </provider>
@@ -284,9 +288,9 @@
         <state relative-caret-position="65">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1537863709279" expanded="true" signature="523:563" ph="SELECT * FRO... playlist" />
-            <marker date="1537863709279" expanded="true" signature="855:914" ph="SELECT email... information" />
-            <marker date="1537863709279" expanded="true" signature="1766:1793" ph="Select from failed" />
+            <marker date="1537866296894" expanded="true" signature="563:603" ph="SELECT * FRO... playlist" />
+            <marker date="1537866296894" expanded="true" signature="895:954" ph="SELECT email... information" />
+            <marker date="1537866296894" expanded="true" signature="1806:1833" ph="Select from failed" />
           </folding>
         </state>
       </provider>
@@ -399,8 +403,8 @@
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-            <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
+            <marker date="1537866296889" expanded="true" signature="535:698" ph="SELECT video... video_info" />
+            <marker date="1537866296889" expanded="true" signature="1066:1109" ph="SELECT * FRO... video_info" />
           </folding>
         </state>
       </provider>
@@ -477,8 +481,8 @@
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-            <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
+            <marker date="1537866296889" expanded="true" signature="535:698" ph="SELECT video... video_info" />
+            <marker date="1537866296889" expanded="true" signature="1066:1109" ph="SELECT * FRO... video_info" />
           </folding>
         </state>
       </provider>
@@ -668,17 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/ControlVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1537340350901" expanded="true" signature="492:655" ph="SELECT video... video_info" />
-            <marker date="1537340350901" expanded="true" signature="1023:1066" ph="SELECT * FRO... video_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video_play.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -689,20 +682,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/ModuleLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="36">
+          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/ControlVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <marker date="1537866296889" expanded="true" signature="535:698" ph="SELECT video... video_info" />
+            <marker date="1537866296889" expanded="true" signature="1066:1109" ph="SELECT * FRO... video_info" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/control/ControlMember.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="47">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
           <folding>
-            <marker date="1537863709279" expanded="true" signature="523:563" ph="SELECT * FRO... playlist" />
-            <marker date="1537863709279" expanded="true" signature="855:914" ph="SELECT email... information" />
-            <marker date="1537863709279" expanded="true" signature="1766:1793" ph="Select from failed" />
+            <marker date="1537866296894" expanded="true" signature="563:603" ph="SELECT * FRO... playlist" />
+            <marker date="1537866296894" expanded="true" signature="895:954" ph="SELECT email... information" />
+            <marker date="1537866296894" expanded="true" signature="1806:1833" ph="Select from failed" />
           </folding>
         </state>
       </provider>
