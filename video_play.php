@@ -1,7 +1,7 @@
 <?php
-if (!isset($_SESSION)) {
-    session_start();
-}
+//if (!isset($_SESSION)) {
+//    session_start();
+//}
 include_once "module/ModuleVideoInfo.php";
 include_once "database/mem_info_open.php";
 include_once "database/video_open.php";
@@ -28,7 +28,7 @@ include_once "database/video_open.php";
 <?php include_once "common/web_footer.php"; ?>
 <script src="libs/js/index.js"></script>
 <script src="libs/js/birthday.js"></script>
-<script src="libs/js/register.js"></script>
+<!--<script src="libs/js/register.js"></script>-->
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <?php include_once "js_For_Video_Play.php"; ?>
 </html>

@@ -127,7 +127,7 @@
                 type: 'POST',
                 data: {Email: Email.value, Password: Password.value},
                 error: function () {
-                    alert('Ajax request 發生錯誤');
+                    alert('Ajax request 發生錯誤a!');
                 },
                 success: function (result) {
                     switch (result) {

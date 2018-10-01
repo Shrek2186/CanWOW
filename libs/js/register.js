@@ -120,7 +120,7 @@ function Email_exist(Email) {
         type: 'POST',
         data: {Email: Email},
         error: function () {
-            alert('Ajax request 發生錯誤');
+            alert('Ajax request 發生錯誤g');
         },
         success: function (result) {
             exist = result;

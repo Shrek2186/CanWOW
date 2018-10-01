@@ -156,7 +156,7 @@ include("Navigation.php");
             type: 'POST',
             data: {playList: list},
             error: function () {
-                alert('Ajax request 發生錯誤');
+                alert('Ajax request 發生錯誤b');
             },
             success: function (result) {
                 if (result === 1) {

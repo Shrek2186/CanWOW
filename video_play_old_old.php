@@ -398,7 +398,7 @@ $Video_ID = $_GET['v'];
                     type: 'POST',
                     data: {Video_ID: video.id},
                     error: function () {
-                        alert('Ajax request 發生錯誤');
+                        alert('Ajax request 發生錯誤c');
                     },
                     success: function (result) {
                         if (result === 1) {

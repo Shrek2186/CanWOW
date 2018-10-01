@@ -50,4 +50,27 @@ class ControlMember
         return $login_message;
     }
 
+    function register($email, $password, $last_name, $first_name, $birth, $phone, $class)
+    {
+        $register_message = '';
+        try {
+            $insert = $this->connect->prepare("INSERT INTO information (email,password,last_name,first_name,birth,phone,class) VALUE (:em,:pw,:ln,:fn,:bh,:ph,:cs)");
+            $insert->bindValue(':em', $email, \PDO::PARAM_STR);
+            $insert->bindValue(':pw', $password, \PDO::PARAM_STR);
+            $insert->bindValue(':ln', $last_name, \PDO::PARAM_STR);
+            $insert->bindValue(':fn', $first_name, \PDO::PARAM_STR);
+            $insert->bindValue(':bh', $birth, \PDO::PARAM_STR);
+            $insert->bindValue(':ph', $phone, \PDO::PARAM_STR);
+            $insert->bindValue(':cs', $class, \PDO::PARAM_INT);
+            if ($insert->execute()) {
+                setcookie('verification', $email, time() + 3600, '/'); //電子信箱認證功能串接
+                $register_message = 1;//register success
+            }
+
+        } catch (\PDOException $e) {
+            echo "Select information failed: " . $e->getMessage();
+        }
+        return $register_message;
+    }
+
 }

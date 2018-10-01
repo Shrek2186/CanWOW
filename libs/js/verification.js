@@ -88,7 +88,7 @@ function check_all() {
     }
     if (!Sent) {
         alert(Warning);
-    }else {
+    } else {
         alert("資料正確");
     }
     return Sent;
@@ -121,24 +121,30 @@ function checkEmail() {
     若Email形式不符合則 return 1;
     */
     var Email = document.getElementById("register_email");
-    if (!isEmail(Email.value)) {
+    if (!validEmail(Email.value)) {
         return 1;
-    } else if (Email_exist(Email.value)) {
+    } else if (existEmail(Email.value)) {
         return 2;
     } else {
         return 3;
     }
 }
 
-function isEmail(Email) {
+function checkPhone() {
+    var Phone = document.getElementById("phone");
+    var Test_Code = /^09[0-9]{8}$/;
+    return Test_Code.test(Phone.value);
+}
+
+function validEmail(Email) {
     return Email === '' ? false : !(!/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/.test(Email));
 }
 
-function Email_exist(Email) {
+function existEmail(Email) {
     var exist = null;
     var register = null;
     $.ajax({
-        url: 'isEmail_exist.php',
+        url: 'module/ModuleEmailCheck.php',
         dataType: "json",
         async: false,
         type: 'POST',
@@ -158,9 +164,99 @@ function Email_exist(Email) {
     return register;
 }
 
-function checkPhone() {
+$(function () {
+    $.ms_DatePicker({
+        YearSelector: ".select_year",
+        MonthSelector: ".select_month",
+        DaySelector: ".select_day"
+    });
+    $.ms_DatePicker();
+});
+
+function registerSent() {
+    alert("註冊");
+    var Email = document.getElementById("register_email");
+    var Password = document.getElementById("register_password");
+    var FirstName = document.getElementById("first_name");
+    var LastName = document.getElementById("last_name");
     var Phone = document.getElementById("phone");
-    var Test_Code = /^09[0-9]{8}$/;
-    return Test_Code.test(Phone.value);
+    var Year = document.getElementById("birth_year");
+    var Month = document.getElementById("birth_month");
+    var Day = document.getElementById("birth_day");
+    alert("資料準備送出");
+    if (check_all()) {
+        alert("送出");
+        $.ajax({
+            url: 'module/ModuleRegister.php',
+            dataType: "json",
+            async: false,
+            type: 'POST',
+            data: {
+                register_email: Email.value,
+                register_password: Password.value,
+                first_name: FirstName.value,
+                last_name: LastName.value,
+                phone: Phone.value,
+                year: Year.value,
+                month: Month.value,
+                day: Day.value
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.responseText);
+                alert(ajaxOptions);
+                alert(thrownError);
+            },
+            success: function (response) {
+                if (response == 1) {
+                    alert('註冊成功!!');
+                    window.location.reload();//刷新當前頁
+                }
+            }
+        });
+    }
+
 }
 
+function loginSent() {
+    var Email = document.getElementById("login_email");
+    var Password = document.getElementById("login_password");
+    $.ajax({
+        url: 'module/ModuleLogin.php',
+        dataType: "json",
+        async: false,
+        type: 'POST',
+        data: {login_email: Email.value, login_password: Password.value},
+        error: function (xhr, ajaxOptions, thrownError) {
+            alert(xhr.responseText);
+            alert(ajaxOptions);
+            alert(thrownError);
+        },
+        success: function (response) {
+            switch (response) {
+                case 1:
+                    alert('登入成功!!');
+                    window.location.reload();//刷新當前頁
+                    break;
+                case 2:
+                    alert('密碼錯誤!!');
+                    break;
+                case 3:
+                    alert('無此帳號!!');
+                    break;
+                case 4:
+                    alert('伺服器錯誤!!');
+                    break;
+            }
+        }
+    });
+}
+
+function registerOpen() {
+    document.getElementById("login-controls").style.display = "none";
+    document.getElementById("register-controls").style.display = "block";
+}
+
+function registerClose() {
+    document.getElementById("login-controls").style.display = "block";
+    document.getElementById("register-controls").style.display = "none";
+}

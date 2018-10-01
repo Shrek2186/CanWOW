@@ -73,7 +73,7 @@
                     type: 'POST',
                     data: {Video_ID: video.id},
                     error: function () {
-                        console.log('Ajax request 發生錯誤');
+                        console.log('Ajax request 發生錯誤d');
                     },
                     success: function (result) {
                         if (result === 1) {

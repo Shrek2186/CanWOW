@@ -493,7 +493,7 @@ include("Navigation.php");
                     type: 'POST',
                     data: {Video_ID: video.id},
                     error: function () {
-                        console.log('Ajax request 發生錯誤');
+                        console.log('Ajax request 發生錯誤f');
                     },
                     success: function (result) {
                         if (result === 1) {

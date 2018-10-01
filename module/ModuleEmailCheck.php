@@ -1,8 +1,17 @@
 <?php
+//include_once $_SERVER['DOCUMENT_ROOT'].'/canwow-server/'."control/ControlMember.php";
+//use shrek\ControlMember as CM;
+//
+//$cm = new CM();
+//$email= $_POST['login_email'];
+//$password = $_POST['login_password'];
+//$login_message = $cm->Login($email,$password);
+//echo $login_message;
+
 // 此PHP檔用於註冊階段檢查Email有無被註冊過
 //header("Content-Type: text/xml");   // XML文件
 $Email = $_POST["Email"];   // 接收傳過來的Email(用戶註冊的Email)
-require_once('database/mem_info_open.php');     // 建立member的資料庫連接
+require_once('../database/mem_info_open.php');     // 建立member的資料庫連接
 
 //--------------建立搜尋指令並發出請求-------------
 $sql = "SELECT `Email` FROM `mem_info` WHERE `Email` LIKE '$Email'";
@@ -17,7 +26,7 @@ if ($result) {
         //echo "此Email已被註冊過了" . "<br>";     測試用
     } else {
         echo 2;
-       //echo "此Email尚未被註冊" . "<br>";       測試用
+        //echo "此Email尚未被註冊" . "<br>";       測試用
     }
 }
 /*
