@@ -1,8 +1,7 @@
 <?php
-include_once "control/ControlVideo.php";
+include_once $_SERVER['DOCUMENT_ROOT'].'/canwow-server/'."control/ControlVideo.php";
 
 use shrek\ControlVideo as CV;
-
 $cv = new CV();
 $cv->SelectInfo($_GET['v']);
 $video_ID = $cv->video['Video_ID'];       //char 6 bytes

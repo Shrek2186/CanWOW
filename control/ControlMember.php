@@ -7,7 +7,7 @@ use shrek\ConnectDB as CDB;
 
 class ControlMember
 {
-    public $video;
+    public $member;
     public $playlist;
     public $connect;
 
@@ -21,9 +21,23 @@ class ControlMember
         $this->connect = $cdb->Connection();
     }
 
+    function SelectMember($memberID)
+    {
+        $select = $this->connect->prepare("SELECT * FROM information WHERE ID LIKE :id");
+        $select->bindValue(':id', $memberID, \PDO::PARAM_STR);
+        $select->execute();
+        $result = $select->fetchAll(\PDO::FETCH_ASSOC);
+        foreach ($result as $array) {
+            foreach ($array as $key => $value) {
+                $this->member[$key] = $value;
+            }
+        }
+    }
+
+
     function SelectList($videoID)
     {
-        $select = $this->connect->prepare("SELECT * FROM playlist WHERE ID LIKE :id ");
+        $select = $this->connect->prepare("SELECT * FROM playlist WHERE ID LIKE :id");
         $select->bindValue(':id', $videoID, \PDO::PARAM_STR);
         $select->execute();
         $result = $select->fetchAll(\PDO::FETCH_ASSOC);
@@ -39,7 +53,7 @@ class ControlMember
                 $result = $select->fetch(\PDO::FETCH_ASSOC);
                 if (!empty($result['email'])) {
                     if ($result['password'] == $password) {
-                        $this->SetCookie($result['ID'], $result['identity'],$result['verification']);//預設身份為上傳者
+                        $this->SetCookie($result['ID'], $result['identity'], $result['verification']);//預設身份為上傳者
                         $login_message = 1;//login success
                     } else $login_message = 2;//password error
                 } else $login_message = 3;//email error
@@ -62,7 +76,7 @@ class ControlMember
             $insert->bindValue(':bh', $birth, \PDO::PARAM_STR);
             $insert->bindValue(':ph', $phone, \PDO::PARAM_STR);
             if ($insert->execute()) {
-                $register_message = $this->ActionLogin($email,$password);//register success
+                $register_message = $this->ActionLogin($email, $password);//register success
             }
 
         } catch (\PDOException $e) {

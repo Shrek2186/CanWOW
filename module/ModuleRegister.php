@@ -19,3 +19,4 @@ try {
 } catch (\PDOException $e) {
     echo "Select information failed : " . $e->getMessage();
 }
+$cm->connect=NULL;

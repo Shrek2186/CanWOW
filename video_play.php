@@ -1,6 +1,7 @@
 <?php
 session_start();
 include_once "module/ModuleVideoInfo.php";
+include_once "module/ModuleMemberInfo.php";
 ?>
 <!DOCTYPE html>
 <html>

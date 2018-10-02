@@ -260,3 +260,8 @@ function registerClose() {
     document.getElementById("login-controls").style.display = "block";
     document.getElementById("register-controls").style.display = "none";
 }
+
+function logoutRequest() {
+    document.cookie = "memberID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    window.location.reload();
+}
