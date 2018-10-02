@@ -6,5 +6,10 @@ use shrek\ControlMember as CM;
 $cm = new CM();
 $email= $_POST['login_email'];
 $password = $_POST['login_password'];
-$login_message = $cm->Login($email,$password);
-echo $login_message;
+try{
+    $login_message = $cm->ActionLogin($email,$password);
+    echo $login_message; //echo 1 登入成功
+}
+catch (\PDOException $e) {
+    echo "Select information failed: " . $e->getMessage();
+}
