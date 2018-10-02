@@ -1,7 +1,7 @@
 <?php
-if (!isset($_SESSION)) {
-    session_start();
-}
+session_start();
+
+print_r($_SESSION);
 include_once "module/ModuleVideoInfo.php";
 include_once "database/mem_info_open.php";
 include_once "database/video_open.php";

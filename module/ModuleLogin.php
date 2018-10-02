@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include_once $_SERVER['DOCUMENT_ROOT'].'/canwow-server/'."control/ControlMember.php";
 use shrek\ControlMember as CM;
 

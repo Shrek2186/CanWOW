@@ -33,8 +33,8 @@ class ControlMember
     {
         $login_message = '';
         try {
-            $select = $this->connect->prepare("SELECT ˋIDˋ,`email`,`password`,ˋidentityˋ,ˋ	verificationˋ FROM `information` WHERE `email` LIKE ?");
-            $select->bindValue(1, $email, \PDO::PARAM_STR);
+            $select = $this->connect->prepare("SELECT ID,email,password,identity,verification FROM information WHERE email LIKE :em");
+            $select->bindValue(':em', $email, \PDO::PARAM_STR);
             if ($select->execute()) {
                 $result = $select->fetch(\PDO::FETCH_ASSOC);
                 if (!empty($result['email'])) {
@@ -50,18 +50,17 @@ class ControlMember
         return $login_message;
     }
 
-    function ActionRegister($email, $password, $last_name, $first_name, $birth, $phone, $class)
+    function ActionRegister($email, $password, $last_name, $first_name, $birth, $phone)
     {
         $register_message = '';
         try {
-            $insert = $this->connect->prepare("INSERT INTO information (email,password,last_name,first_name,birth,phone,class) VALUE (:em,:pw,:ln,:fn,:bh,:ph,:cs)");
+            $insert = $this->connect->prepare("INSERT INTO information (email,password,last_name,first_name,birth,phone) VALUE (:em,:pw,:ln,:fn,:bh,:ph)");
             $insert->bindValue(':em', $email, \PDO::PARAM_STR);
             $insert->bindValue(':pw', $password, \PDO::PARAM_STR);
             $insert->bindValue(':ln', $last_name, \PDO::PARAM_STR);
             $insert->bindValue(':fn', $first_name, \PDO::PARAM_STR);
             $insert->bindValue(':bh', $birth, \PDO::PARAM_STR);
             $insert->bindValue(':ph', $phone, \PDO::PARAM_STR);
-            $insert->bindValue(':cs', $class, \PDO::PARAM_INT);
             if ($insert->execute()) {
                 $register_message = $this->ActionLogin($email,$password);//register success
             }
@@ -76,7 +75,7 @@ class ControlMember
     {
         //電子信箱認證功能串接
         setcookie('memberID', $memberID, time() + 3600, '/');
-        $_SESSION['verification']=$verification;
-        $_SESSION['identity']=$identity;
+        $_SESSION['verification'] = $verification;
+        $_SESSION['identity'] = $identity;
     }
 }
