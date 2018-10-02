@@ -40,6 +40,21 @@
     </div>
     <!-- Footer Elements -->
 
-
-
 </footer>
+<script src="libs/js/index.js"></script>
+<script src="libs/js/birthday.js"></script>
+<script type="text/javascript" src="libs/js/verification.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script>
+    var mySearch_display = false;
+
+    function openSearch() {
+        if (mySearch_display) {
+            mySearch_display = false;
+            document.getElementById('mySearch').style.display = "none";
+        } else {
+            mySearch_display = true;
+            document.getElementById('mySearch').style.display = "block";
+        }
+    }
+</script>

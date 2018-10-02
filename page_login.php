@@ -79,4 +79,3 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="libs/js/verification.js"></script>
