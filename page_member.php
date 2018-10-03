@@ -119,5 +119,5 @@ include_once "module/ModuleMemberInfo.php";
 </body>
 <!--網站頁尾-->
 <?php include_once "common/web_footer.php"; ?>
-<?php include_once "js_For_Video_Play.php"; ?>
+<?php //include_once "js_For_Video_Play.php"; ?>
 </html>
