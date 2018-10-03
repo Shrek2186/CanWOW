@@ -203,6 +203,11 @@ ol,ul {
     /*height: 2000px;*/
 }
 
+#main-area-member {
+    background: url(../img/member-back-1.jpg) repeat-y;
+    background-size: contain;
+    /*height: 2000px;*/
+}
 /*video {*/
 /*border-radius: 0.5em;*/
 /*border: solid dimgray 0.1em;*/

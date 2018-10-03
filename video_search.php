@@ -54,7 +54,7 @@ include_once "module/ModuleSearch.php";
 </style>
 <body>
 <!--登入頁面-->
-<?php include_once "page_login.php"; ?>
+<?php include_once "content_verification.php"; ?>
 <!--導覽列-->
 <?php include_once "common/nav_top.php"; ?>
 <!--工具列-->
