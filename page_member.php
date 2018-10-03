@@ -2,6 +2,7 @@
 session_start();
 //include_once "module/ModuleVideoInfo.php";
 include_once "module/ModuleMemberInfo.php";
+include_once "module/ModuleChannel.php";
 //include_once "database/mem_info_open.php";
 //include_once "database/video_open.php";
 //include_once "module/ModuleSearch.php";

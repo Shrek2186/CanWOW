@@ -38,9 +38,30 @@ class ControlMember
     function SelectList($videoID)
     {
         $select = $this->connect->prepare("SELECT * FROM playlist WHERE ID LIKE :id");
-        $select->bindValue(':id', $videoID, \PDO::PARAM_STR);
+        $select->bindValue(':id', $videoID, \PDO::PARAM_INT);
         $select->execute();
         $result = $select->fetchAll(\PDO::FETCH_ASSOC);
+
+    }
+
+    function SelectChannel($memberID)
+    {
+        $select = $this->connect->prepare("SELECT * FROM channel WHERE creator LIKE :cr");
+        $select->bindValue(':cr', $memberID, \PDO::PARAM_INT);
+        $select->execute();
+        $result = $select->fetchAll(\PDO::FETCH_ASSOC);
+        return $result;
+    }
+
+    function DeleteChannel($channelID)
+    {
+        $delete_message = 0;
+        $delete = $this->connect->prepare("DELETE FROM channel WHERE ID LIKE :id");
+        $delete->bindValue(':id', $channelID, \PDO::PARAM_INT);
+        if ($delete->execute()) {
+            $delete_message=1;
+        }
+        return $delete_message;
     }
 
     function ActionLogin($email, $password)
@@ -92,4 +113,23 @@ class ControlMember
         $_SESSION['verification'] = $verification;
         $_SESSION['identity'] = $identity;
     }
+
+    function AddChannel($title, $content, $creator)
+    {
+        $channel_message = '';
+        try {
+            $insert = $this->connect->prepare("INSERT INTO channel (title,content,creator) VALUE (:tl,:ct,:cr)");
+            $insert->bindValue(':tl', $title, \PDO::PARAM_STR);
+            $insert->bindValue(':ct', $content, \PDO::PARAM_STR);
+            $insert->bindValue(':cr', $creator, \PDO::PARAM_STR);
+            if ($insert->execute()) {
+                $channel_message = 1;//Add success
+            }
+
+        } catch (\PDOException $e) {
+            echo "Select information failed: " . $e->getMessage();
+        }
+        return $channel_message;
+    }
+
 }
